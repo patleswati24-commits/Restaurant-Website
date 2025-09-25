@@ -1,0 +1,286 @@
+h2 {
+    font-size: 30px;
+}
+
+.container {
+    background-color: #000000;
+}
+
+.container img {
+    width: 100%;
+}
+
+.main-dr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lft-hdr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    gap: 50px;
+}
+
+li {
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    height: 100%;
+}
+
+.logo img {
+    padding: 10px;
+    position: relative;
+    width: 40%;
+    height: 40%;
+    border-radius: 40px;
+}
+
+.desc {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 10px;
+}
+
+.top-heading {
+    margin: 25px;
+    text-align: center;
+}
+
+.card {
+    background-color: #ededed;
+    overflow: hidden;
+    box-shadow: 0 2px 8pxn black;
+    border-radius: 6px;
+    width: 23.33%;
+}
+
+.food-descrp {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: #000000;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.container1 {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.food-img img {
+    width: 100%;
+    height: 200px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    position: relative;
+    width: 100%;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 20%;
+    right: 38%;
+    color: rgb(231, 206, 206);
+    font-size: 40px;
+}
+
+.banner p {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    width: 40%;
+    color: rgb(238, 200, 200);
+    font-size: 20px;
+}
+
+.banner-input {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    width: 40%;
+    color: white;
+    font-size: 20px;
+
+}
+
+.learnbtn {
+    border-radius: 4px;
+    background: rgb(33, 100, 33);
+    font-weight: bold;
+    color: white;
+    padding: 15px 12px;
+    border: 1px solid #EEEEEE;
+}
+
+.add-img {
+    margin: 40px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+
+.add-descrp {
+    text-align: center;
+    font-size: 20px;
+    color: #ededed;
+
+}
+
+.add-descrp p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.add-input {
+    text-align: center;
+}
+
+.input-area {
+    font-weight: normal;
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+    padding: 15px 12px;
+}
+
+.addbtn {
+    border-radius: 4px;
+    background: rgb(33, 100, 33);
+    font-weight: bold;
+    color: white;
+    padding: 15px 12px;
+    width: 10%;
+    border: 1px solid #EEEEEE;
+}
+
+.recipe-listing ul li {
+    border: 1px solid grey;
+}
+
+.recipe-img img {
+    width: 100%;
+    height: 200px;
+}
+
+.recipe-heading h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.recipe-heading p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.rec-card {
+    overflow: hidden;
+    box-shadow: 0 2px 8pxn black;
+    border-radius: 6px;
+    width: 23.33%;
+}
+
+.recipe-descrp {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: #000000;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.footer-img {
+    margin: 40px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+
+.footer-descrp {
+    text-align: center;
+    font-size: 20px;
+    color: #ededed;
+
+}
+
+.footer-descrp p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.f-input {
+    text-align: center;
+}
+
+.input-area {
+    font-weight: normal;
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+    padding: 15px 12px;
+}
+
+.f-btn {
+    border-radius: 4px;
+    background: rgb(33, 100, 33);
+    font-weight: bold;
+    color: white;
+    padding: 15px 12px;
+    width: 10%;
+    border: 1px solid #EEEEEE;
+}
+
+
+.srvc-listing ul li {
+    border: 1px solid rgb(238, 234, 234);
+    text-align: center;
+}
+
+.srvc-heading h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.srvc-heading p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.srvc-descrp {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+    color: #000000;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
